@@ -66,6 +66,17 @@ autocrlf=true
 *.png binary
 *.jpg binary
 *.bmp binary
+*.jpg binary
+*.png binary
+*.inf binary
+*.INF binary
+*.zip binary
+*.res binary
+*.tar.gz binary
+*.rar binary
+*.zip binary
+*.7z binary
+*.wav binary
 
 # Standard to msysgit
 *.doc  diff=astextplain
