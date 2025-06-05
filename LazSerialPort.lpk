@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
-  <Package Version="4">
+  <Package Version="5">
     <Name Value="LazSerialPort"/>
     <Type Value="RunAndDesignTime"/>
     <AddToProjectUsesSection Value="True"/>
@@ -10,6 +10,11 @@
       <SearchPaths>
         <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
       </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
     </CompilerOptions>
     <Description Value="Serial Port Component for Lazarus"/>
     <License Value="This library is Free software; you can rediStribute it and/or modify it
@@ -33,6 +38,7 @@
         <UnitName Value="LazSerial"/>
       </Item1>
     </Files>
+    <CompatibilityMode Value="True"/>
     <RequiredPkgs Count="3">
       <Item1>
         <PackageName Value="IDEIntf"/>
