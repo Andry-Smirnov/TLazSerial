@@ -4,10 +4,12 @@
 
 unit LazSerialPort;
 
+{$warn 5023 off : no warning about unused units}
 interface
 
 uses
-  LazSerial, LazarusPackageIntf;
+  LazSerial, LazSynaSer, lazserialsetup, LazSynaFpc, LazSynaUtil, 
+  LazarusPackageIntf;
 
 implementation
 

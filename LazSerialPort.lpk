@@ -10,11 +10,6 @@
       <SearchPaths>
         <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
       </SearchPaths>
-      <Parsing>
-        <SyntaxOptions>
-          <UseAnsiStrings Value="False"/>
-        </SyntaxOptions>
-      </Parsing>
     </CompilerOptions>
     <Description Value="Serial Port Component for Lazarus"/>
     <License Value="This library is Free software; you can rediStribute it and/or modify it
@@ -31,12 +26,28 @@
   along with This library; if not, Write to the Free Software Foundation,
   Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. }"/>
     <Version Minor="6"/>
-    <Files Count="1">
+    <Files Count="5">
       <Item1>
         <Filename Value="lazserial.pas"/>
         <HasRegisterProc Value="True"/>
         <UnitName Value="LazSerial"/>
       </Item1>
+      <Item2>
+        <Filename Value="lazsynaser.pas"/>
+        <UnitName Value="LazSynaSer"/>
+      </Item2>
+      <Item3>
+        <Filename Value="lazserialsetup.pas"/>
+        <UnitName Value="lazserialsetup"/>
+      </Item3>
+      <Item4>
+        <Filename Value="lazsynafpc.pas"/>
+        <UnitName Value="LazSynaFpc"/>
+      </Item4>
+      <Item5>
+        <Filename Value="lazsynautil.pas"/>
+        <UnitName Value="LazSynaUtil"/>
+      </Item5>
     </Files>
     <CompatibilityMode Value="True"/>
     <RequiredPkgs Count="3">
